@@ -21,3 +21,12 @@
 | centraliser l'achat des equipements                |                                   |
 
 
+
+Glpi 
+	-Gerer tous les parcs
+	-faire un inventaire
+	-creer des tickets 
+		-creer plusieurs catégorie de tickets 
+			-tickets pour le service Compta ou RH 
+			-tickets poour le service IT
+			
