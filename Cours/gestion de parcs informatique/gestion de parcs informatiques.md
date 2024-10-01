@@ -29,4 +29,4 @@ Glpi
 		-creer plusieurs catégorie de tickets 
 			-tickets pour le service Compta ou RH 
 			-tickets poour le service IT
-			
+
