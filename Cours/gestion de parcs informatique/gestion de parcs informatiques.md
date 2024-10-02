@@ -109,4 +109,32 @@ PCA : plan de continuer de l'activité
 PCI : plan de continuité de l'informatique 
 
 
+# Analyse multicritères 
+
+classe A = Critique = Maintenance conditionnelle 
+classe B= ordinaire = Maintenance préventive 
+Classe C= banals = Maintenance curative 
+
+
+Analyse multicritique:  
+    - R: Risque  
+    - I: Importance machine  
+    - C: Charge Machine  
+-Facteur Machine:  
+    Calculer facteur de machine en fonction de son évalutation:  
+        FACTEURmachine = R x I x C  
+        Facteur machine elever:  
+                - Maintenance conditionnelle  
+        - Facteur Machine Ordinaires:  
+                - Maintenance préventive  
+        - Facteur machine banale:  
+                - Maitenance curentive
+
+
+TCO: Temps d'occupation est un coup sur un système
+
+
+
+
+
 
