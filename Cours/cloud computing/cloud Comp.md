@@ -73,3 +73,79 @@ payer seulement les service utiliser
 
 taris qui est dégressif selon l'utilisation
 
+
+
+# Module 6 - Service de calcul AWS
+
+- Amazon EC2 (machine virtuel) infra en tant que service IaaS
+- Amazon ECS EKS ECR et AWS fargate (calcule baser sur des conteneur)
+- Amazon Lambda (calcul sans serveur)
+- AWS Elastic Beantalk 
+
+
+
+		section 2
+
+
+Amazon Elastic compute cloud (Amazon EC2)
+
+
+
+Création d'une AMI 
+Amazon Machine Image (ami)
+modèle utiliser pour crée le EC2 (machine virtuelle ou vm qui exécutée dans AWS cloud)
+
+option de l'image AMI :
+quick start : ami Linux et Windows fournies par aws
+
+en gros se sont des machine près installer avec les iso d'installer près a être utiliser avec nos logicielle choisie gain de temps plus de cout
+
+![[Pasted image 20241008092243.png]]
+
+
+
+
+Dénomination et taille des types d'instances 
+
+![[Pasted image 20241008092325.png]]
+
+plusieurs type d'instance en fonction des tache a effectuer 
+
+![[Pasted image 20241008092401.png]]
+
+Choisir l'instance ou on va mettre notre EC2(machine virtuel)
+- la bande passante varie en fonction de l'instance
+- type de réseaux améliorée 
+	- Ena prend jusqua 100Gbits/S
+	- interface VF intel 82599 prend 10Gbits/S 
+
+
+
+
+
+Section 4
+
+- ajout des balise 
+- ![[Pasted image 20241008094824.png]]
+
+
+
+- paramètre des groupe de sécurité 
+	- un groupe de sécurité est un ensemble de règle pare feu qui contrôle le trafic entrant de l'instance 
+
+	- ![[Pasted image 20241008095049.png]]
+
+
+lancement d'une interface EC2 avec l'interface en ligne de commande 
+![[Pasted image 20241008100612.png]]
+
+
+
+Analyse du cycle de vie et de fonctionnement d'une EC2
+
+![[Pasted image 20241008100703.png]]
+
+
+Amazon CloudWatch pour surveiller et faire la supervisons de notre réseau cloud 
+
+![[Pasted image 20241008100848.png]]
