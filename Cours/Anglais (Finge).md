@@ -136,3 +136,81 @@ Take care, and have a nice day!
 
 
 
+
+# 14/10/2024
+
+
+
+Proposition of place 
+
+at = location
+on= surface (floor)
+in= enclosed space (endroit fermer exemple un magasin)
+
+
+Some Exceptions : 
+
+- 1) I'm in the car              Personal Use
+- 2) I'm in the van             Personal Use
+
+- 3) I'm on the train           Public or means of transport 
+
+![[Pasted image 20241014092509.png]]
+
+
+
+
+# Exercice 
+
+![[Pasted image 20241014093414.png]]
+
+
+- 1 on 
+- 2 in
+- 3 in 
+- 4 on
+- 5 in 
+- 6 at
+- 7 at 
+- 8 on
+- 9 at 
+- 10 in
+- 11 on
+- 12 at
+- 13 on 
+- 14 in 
+- 15 on 
+- 16 in 
+- 17 at
+- 18 at 
+- 19 at 
+- 20 on
+
+
+
+
+
+
+
+- Aquarium
+- Architecture
+- Laboratory
+- Encyclopedia
+- Philosophy
+- Biography
+- Algorithm
+- Symphony
+- Microscope
+- Atmosphere
+- Photography
+- Literature
+- Vocabulary
+- Mathematics
+- Sculpture
+- Psychology
+- Geography
+- Hypothesis
+- Civilization
+- Astronomy
+
+
