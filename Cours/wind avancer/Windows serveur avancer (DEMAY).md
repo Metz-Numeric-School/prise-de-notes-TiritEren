@@ -60,3 +60,10 @@ Vis-a-vis d'un client l'un ou l'autre repond en fonction de la vitesse du reseau
 
 
 ![[Pasted image 20241015093449.png]]
+
+
+# DHCP
+
+Role du DHCP 
+permet au serveurs d'attribuer des adresse IP aux ordinateurs et autre périphériques reconnus comme client DHCP
+
