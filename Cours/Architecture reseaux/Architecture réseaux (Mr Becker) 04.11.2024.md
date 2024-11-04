@@ -183,3 +183,78 @@ Classe A = 10.0.0.0/8 = 10.255.255.255
 Classe B = 172.16.0.0 = 172.31.255.255
 Classe C = 192.168.0.0 = 192.168.255.255
 
+
+# Lien Trunk
+
+lien physique permettant le transit de plusieurs VLAN au sein du réseaux Ethernets
+
+
+Protocole EEE 802.1Q
+
+
+
+enable
+
+configure terminal 
+
+vtp mode ?
+
+vtp mode server ou client
+
+vtp domain BSRC2
+
+vtp password MNS
+
+ensuite faire ctrl z ensuite saisir wr
+
+
+configuration du vlan
+
+conf t 
+
+vlan 10 
+name SALES
+exit
+
+vlan 20 
+name R&D
+
+vlan 30 
+name MGT
+
+vlan 40 
+name IT
+
+vlan 50 
+name PRINTERS
+
+vlan 60 
+name SERVERS
+
+
+show vlan brief
+
+
+conf t 
+int G0/2 (saisir le bon port)
+
+
+switchport mode tr
+
+sh int tr
+
+
+conf t
+
+int range G0/1-2
+
+sw mo tr
+
+
+int range F0/1-18
+
+sw mo ac 
+
+sw ac vlan 10
+
+sh vlan br
