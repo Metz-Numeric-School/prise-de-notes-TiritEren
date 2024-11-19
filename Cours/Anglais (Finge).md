@@ -214,3 +214,80 @@ Some Exceptions :
 - Astronomy
 
 
+
+
+
+
+# Cours du 12/11/2024
+
+
+- Can -Could 
+	- To talk about skills
+	- for permission 
+
+- Must
+-  Have to 
+	- Obligation 
+	
+- Mustn't 
+	- Don't have to
+		- no necessity 
+
+
+- Might (Probability)
+	- it might nain homorriond 
+
+
+
+
+List :
+1) 5 things a french citizen must do 
+	- go to school 
+	- go to shopping 
+	- go to work
+	- go to travel 
+	- pay the taxe 
+
+
+2) 3 Things you might do in christmas 
+	- Decorate the Christmas tree
+	- **Spend time with family and friends**
+	- Go Christmas shopping
+
+
+3) 3 Things you used to do in the past (capacity) 
+	- sleep
+	- play video game
+	- go out with friends
+
+
+
+
+
+A) The psychology of the chocolate culture in the architecture which aims to know the talk walk of the chaotic situation 
+
+
+13/11/2024
+
+
+1) have to
+2) should
+3) had to
+4) must
+5) could
+6) must
+7) may
+8) must
+9) can
+10) may
+11) mustn't
+12) have to
+13) can
+14) can't
+15) can
+
+
+
+
+
+
