@@ -291,3 +291,52 @@ A) The psychology of the chocolate culture in the architecture which aims to kno
 
 
 
+# 19/11/2024
+
+1) Preposition of time
+	1) at : specific time, ex: at 10:00/ at noon / at midnight / at the weeskeral 
+	2) on : days , ex: on Monday on christmas day on my birthday on the week-end 
+	3) in : During a time ex : in the evening in 1998 in winter in christmas 
+
+2) Prepsition of place
+	1) at : Specific location 
+	2) on : Surface on media (on facebook, on internet)
+	3) in : inside (in the classroom, in the bulding)
+
+3) Present perfect ; have/has+ past participe form 
+	1) a -unfinished action
+		exemple : Theo has been at school since September (date)
+			they have been married for 3 Years (duration)
+	2) b - life experience : (ever/never)
+			Have you ever visited paris
+			I have never seen a Gorilla
+
+
+4) Future
+	1) Will = Verb --> uncertain, Rapid decision 
+	2) be+ going to +verb  --> Certain Evidence 
+
+
+
+
+
+
+Elon musk 
+
+- He is a major manipulator of financial markets, notably through his influence on cryptocurrencies like Dogecoin and Bitcoin.
+    
+- **He is someone who has revolutionized the space industry with SpaceX.**
+    
+- **Inventor of Neuralink, a brain chip designed to help handicap people.**
+    
+- **co-Founder of Tesla, he popularized electric vehicles and accelerated the transition to cleaner energy.**
+    
+- **He is also the owner of X, which he bought to reinvent social media and online communication.**
+
+
+
+- **Elon Musk is the co-founder of Tesla, a company that makes electric cars.**
+- **He created SpaceX, a company that sends rockets into space.**
+- **Musk also helped develop PayPal, an online payment system.**
+- **He owns the social media platform X, which was formerly known as Twitter.**
+- **Musk is working on Neuralink, a project that aims to connect the human brain to computers.**
