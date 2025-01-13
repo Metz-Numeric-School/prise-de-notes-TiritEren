@@ -54,3 +54,17 @@ Le mode sans échec est un mode spécial de Windows qui permet de démarrer l’
 
 
 
+
+
+
+
+
+
+
+
+
+
+# Cours du 04/12/2024
+
+
+

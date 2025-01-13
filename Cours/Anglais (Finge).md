@@ -340,3 +340,27 @@ Elon musk
 - **Musk also helped develop PayPal, an online payment system.**
 - **He owns the social media platform X, which was formerly known as Twitter.**
 - **Musk is working on Neuralink, a project that aims to connect the human brain to computers.**
+
+
+
+
+
+# 13/01/2025
+
+List of vocabulary words
+
+1) Admin privilege having control of any given system
+2) advanced persistent threats : stealing data without harming network
+3) air gap : isolating a network from external networks to avoid any attacks
+4) attack vector a technique that a hacker uses to gain access to system
+5) authenticator : the way which an identity is confirmed
+6) Adware : a software that displays or downloads a system when you are offline
+
+B) 
+1) Backdoor : a way to access a software or a hardware unauthorized and implated by intellignece agencies 
+2) bitcoin : a form of electronic cash created by satoshi nakamoto 
+3) black hat hacking : hacking with malicious intention 
+4) bot : programs that execute tasks as ordered by the creator of the program
+5) bot net : a collection of private computers that are infected with malicious software withoot the owner's knowledge 
+6) bug : an error or a flaiw in a computer program 
+7) brute force attack : when an attacker inputs many passwords in the hope that he guesses correctly.
