@@ -364,3 +364,17 @@ B)
 5) bot net : a collection of private computers that are infected with malicious software withoot the owner's knowledge 
 6) bug : an error or a flaiw in a computer program 
 7) brute force attack : when an attacker inputs many passwords in the hope that he guesses correctly.
+
+
+
+
+
+how many types of cybersecurity
+
+- **Network security**
+- **Application security**
+- **Information security** (or data security)
+- **Endpoint security**
+- **Identity and access management (IAM)**
+- **Cloud security**
+
