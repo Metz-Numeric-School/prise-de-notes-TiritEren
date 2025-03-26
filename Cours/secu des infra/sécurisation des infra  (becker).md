@@ -2022,3 +2022,157 @@ En dehors de l'autorisation ou du blocage du trafic, les listes de contrôle d'a
 
 La figure montre un exemple de topologie avec des ACL appliquées aux routeurs R1, R2 et R3.
 
+
+
+
+
+
+# 7.5.1  Qu'ai-je appris dans ce module 7 ?
+
+
+Histoire de Windows
+
+Les premiers ordinateurs nécessitaient un système d'exploitation de disque (DOS) pour créer et gérer des fichiers. Microsoft a développé MS-DOS comme interface de ligne de commande (CLI) pour accéder au lecteur de disque et charger les fichiers du système d'exploitation. Les premières versions de Windows se composaient d'une interface utilisateur graphique (GUI) exécutée sur MS-DOS. Cependant, les versions modernes de Windows sont en contrôle direct de l'ordinateur et de son matériel et prennent en charge plusieurs processus utilisateur. contrairement à MS-DOS qui fonctionne en mode monotâche et mono-utilisateur. Depuis 1993, plus de 20 versions de Windows basées sur le système d'exploitation NT ont vu le jour. Les utilisateurs utilisent une interface graphique Windows pour travailler avec des fichiers de données et des logiciels. L'interface graphique comporte une zone principale appelée Bureau et une barre des tâches située sous le Bureau. La barre des tâches comprend le menu Démarrer , les éléments de lancement rapide et la zone de notification. Windows présente de nombreuses vulnérabilités. Les recommandations pour sécuriser le système d'exploitation Windows incluent l'utilisation de la protection contre les virus ou les logiciels malveillants, l'utilisation de mots de passe forts, l'utilisation d'un pare-feu et l'utilisation limitée du compte administrateur, entre autres.
+
+
+
+Architecture et fonctionnement de Windows
+
+Windows comporte une couche d'abstraction du matériel est un code qui gère l'ensemble des communications entre le matériel et le noyau. Le noyau gère toutes les demandes d'entrée et de sortie, la mémoire ainsi que tous les appareils connectés à l'ordinateur. Windows fonctionne dans deux modes différents. Le premier est le mode utilisateur. La plupart des programmes dans Windows s'exécutent en mode utilisateur. Le second est le mode noyau. Il permet un accès direct au code du système d'exploitation au matériel informatique. Windows prend en charge plusieurs systèmes de fichiers différents, mais NTFS est le plus utilisé. Les volumes NTFS incluent le secteur de démarrage de la partition, la table de fichiers maître, les fichiers système et la zone de fichiers. Lorsqu'un ordinateur démarre, il accède d'abord aux informations système et au code stockés dans le matériel du BIOS. Le code de démarrage du BIOS effectue un auto-test système appelé POST, localise et charge le système d'exploitation Windows et charge d'autres programmes associés pour démarrer le système d'exploitation. Windows doit toujours être arrêté correctement.
+
+Pour fonctionner, un ordinateur stocke des instructions dans la mémoire RAM en vue de leur traitement par le processeur. Chaque processus d'un ordinateur Windows 32 bits prend en charge un espace d'adressage virtuel de 4 gigaoctets maximum. Chaque processus d'un ordinateur Windows 64 bits prend en charge un espace d'adressage virtuel jusqu'à 8 téraoctets. Windows stocke toutes les informations relatives aux paramètres du matériel, des applications, des utilisateurs et du système dans une grande base de données appelée le Registre. Le registre est une base de données hiérarchique dont le niveau le plus élevé est appelé ruche , et dont les niveaux inférieurs sont appelés clés ou sous-clés, respectivement. Il existe cinq ruches de Registre qui contiennent des données concernant la configuration et le fonctionnement de Windows. Il y a des centaines de clés et de sous-clés.
+
+
+
+
+Configuration et contrôle de Windows
+
+Pour des raisons de sécurité, il est déconseillé de se connecter à Windows avec le compte d'administrateur ou un compte disposant de privilèges d'administrateur. Ne donnez pas de privilèges d'administration aux utilisateurs standard. N'activez pas le compte Invités à moins que l'ordinateur ne soit utilisé par de nombreuses personnes différentes qui n'ont pas de compte. Pour faciliter l'administration des utilisateurs, Windows utilise des groupes. Les utilisateurs et les groupes locaux sont gérés à l'aide de l'applet lusrmgr.msc du panneau de configuration.
+
+Vous pouvez utiliser l'interface de ligne de commande ou Windows PowerShell pour exécuter des commandes. PowerShell, permet de créer des scripts d'automatisation des tâches que l'interface de ligne de commande standard ne peut pas créer. Windows Management Instrumentation (WMI) est utilisé pour gérer les ordinateurs distants. La commande **net** peut être combinée avec des commutateurs pour se concentrer sur une sortie spécifique. Le gestionnaire des tâches fournit de nombreuses informations sur tout ce qui est en cours d'exécution et sur les performances générales de l'ordinateur. Le moniteur de ressources fournit des informations plus détaillées sur l'utilisation des ressources. Le centre Réseau et partage permet de configurer et de tester les propriétés du réseau Windows. Le protocole SMB (Bloc de messages du serveur) est utilisé pour partager des ressources réseau. Le format UNC (Convention de dénomination universelle) vous permet de vous connecter aux ressources. Windows Server, une autre édition de Windows, est principalement utilisé dans les data centers. Il fournit des services de réseau, de fichiers, de Web et de gestion à un réseau ou à un domaine Windows.
+
+
+
+Sécurité Windows
+
+Les logiciels malveillants peuvent ouvrir des ports de communication pour communiquer et diffuser. La commande Windows **netstat** affiche tous les ports de communication ouverts sur un ordinateur et peut également afficher les processus logiciels qui sont associés aux ports. Cela permet d'identifier et d'arrêter les logiciels potentiellement malveillants inconnus. L’observateur d'événements Windows permet d'accéder à de nombreux événements consignés concernant le fonctionnement d'un ordinateur. Windows enregistre les événements Windows et les événements d'applications et de services. Les niveaux de gravité des événements consignés varient entre les niveaux d'information, d'avertissement, d'erreur ou critique. Il est très important de garder Windows à jour pour se prémunir contre les nouvelles menaces de sécurité. Les correctifs logiciels, les mises à jour et les Service Packs corrigent les vulnérabilités de sécurité à mesure qu'elles sont découvertes Windows doit être configuré pour télécharger et installer automatiquement les mises à jour à mesure qu'elles deviennent disponibles. Windows peut être configuré pour installer et redémarrer un ordinateur uniquement à des heures spécifiées de la journée.
+
+
+
+
+# Module 8
+
+
+# 8.1.1 Qu'est-ce que Linux?
+
+![](https://contenthub.netacad.com/asset/netacad-media/media/f3657fc0-a1fb-11ea-bb42-49e522ad4be8/assets/images/f47e42c0-a1fb-11ea-bb42-49e522ad4be8.png)
+
+![](https://www.netacad.com/content/noes/1.0/assets/zoom_in.svg)
+
+Linux est un système d'exploitation créé en 1991 Linux est Open Source, rapide, fiable et peu encombrant. Hautement personnalisable, son exécution nécessite très peu de ressources matérielles. Contrairement aux autres systèmes d'exploitation tels que Windows et Mac OS X, Linux a été créé et est actuellement maintenu par une communauté de programmeurs. Linux fait partie de plusieurs plates-formes et se rencontre sur toutes sortes d'appareils, des « bracelets-montres aux superordinateurs ».
+
+Un autre aspect important de Linux est qu'il est conçu pour être connecté au réseau, ce qui rend bien plus simples l'écriture et l'utilisation d'applications basées sur le réseau. Du fait que Linux est Open Source, toute personne ou société peut obtenir le code source de son noyau, l'inspecter, le modifier et le recompiler à volonté. Ces personnes sont également autorisées à redistribuer le programme avec ou sans frais.
+
+On parle de distribution Linux pour décrire les paquets créés par différentes entreprises. Les distributions Linux comprennent le noyau Linux avec des outils personnalisés et des paquets logiciels. Si certaines de ces entreprises facturent l'assistance de leur distribution Linux (axée sur les entreprises s'appuyant sur Linux), la majorité d'entre elles proposent également gratuitement leur distribution sans assistance. Debian, Red Hat, Ubuntu, CentOS et SUSE ne sont que quelques exemples de distributions Linux.
+
+# 8.1.2 La valeur de Linux
+
+Linux est souvent le système d'exploitation de choix dans le centre de sécurité (SOC). Voici quelques-unes des raisons de choisir Linux:
+
+- **Linux est un logiciel libre -** Toute personne peut acquérir Linux gratuitement et le modifier pour répondre à des besoins spécifiques. Cette souplesse permet aux analystes et aux administrateurs de construire sur mesure un système d'exploitation spécialement pour l'analyse de la sécurité.
+- **Le CLI de Linux est très puissant -** Si une interface graphique facilite l'exécution de nombreuses tâches, elle ajoute de la complexité et nécessite davantage de ressources informatiques pour fonctionner. L'interface de ligne de commande (CLI) de Linux est extrêmement puissante et permet aux analystes d'effectuer leurs tâches non seulement directement sur un terminal, mais aussi à distance.
+- **L'utilisateur a plus de contrôle sur le système d'exploitation -** L'utilisateur administrateur de Linux, appelé utilisateur racine ou superutilisateur, a un pouvoir absolu sur l'ordinateur. Contrairement avec ce qui se passe dans les autres systèmes d'exploitation, l'utilisateur root peut modifier n'importe quel aspect de l'ordinateur en quelques frappes. Ceci s'avère particulièrement utile lorsque vous travaillez avec des fonctions de bas niveau comme la pile réseau. Elle permet à l'utilisateur racine (root) d'avoir un contrôle précis sur la façon dont les paquets réseau sont gérés par le système d'exploitation.
+- **Il permet un meilleur contrôle de la communication réseau -** Le contrôle est une partie inhérente de Linux. Du fait que le système peut être ajusté sous pratiquement tous ses aspects, c'est une excellente plateforme pour la création d'applications en réseau. C'est également pour cette raison que de nombreux excellents outils logiciels axés sur le réseau sont uniquement disponibles pour Linux.
+
+# 8.1.3 Linux dans le SOC
+
+La flexibilité qu'offre Linux est une excellente fonctionnalité pour la SOC. L'ensemble du système d'exploitation peut être adapté pour devenir une plate-forme d'analyse de sécurité parfaite. Par exemple, les administrateurs peuvent n'ajouter que les paquets nécessaires au système d'exploitation, ce qui en fait un système léger et efficace. Des outils logiciels spécifiques peuvent être installés et configurés pour fonctionner conjointement, permettant aux administrateurs de créer un ordinateur personnalisé qui s'intègre parfaitement au flux de travail d'une SOC.
+
+La figure montre Sguil, qui est la console d'analyste de cybersécurité dans une version spéciale de Linux appelée Security Onion. Security Onion est une suite open source d'outils qui fonctionnent ensemble pour l'analyse de la sécurité du réseau.
+
+![](https://contenthub.netacad.com/asset/netacad-media/media/f480dad0-a1fb-11ea-bb42-49e522ad4be8/assets/images/f59027f0-a1fb-11ea-bb42-49e522ad4be8.png)
+
+
+
+**Sélectionnez les en-têtes pour en savoir plus sur les outils que l'on trouve souvent dans un SOC.**
+
+
+
+Logiciel de capture de paquets
+
+- Un outil essentiel pour un analyste SOC car il permet d'observer et de comprendre tous les détails d'une transaction réseau.
+- Wireshark est un outil populaire de capture de paquets.
+
+
+Outil d'analyse des logiciels malveillants (Malware)
+
+Ces outils permettent aux analystes d'exécuter en toute sécurité et d'observer l'exécution de logiciels malveillants sans risquer de compromettre le système sous-jacent.
+
+
+Systèmes de détection des intrusions (IDS)
+
+- Ces outils sont utilisés pour l'inspection et la surveillance du trafic en temps réel.
+- Si n'importe quel aspect du trafic circulant actuellement correspond à l'une des règles établies, une action prédéfinie est entreprise.
+
+Pare-feu
+
+Ce logiciel est utilisé pour spécifier, à partir de règles prédéfinies, si le trafic est autorisé à entrer dans le réseau ou à le quitter.
+
+
+Gestionnaires de journaux
+
+- Les fichiers journaux sont utilisés pour enregistrer des événements.
+- Comme un grand réseau peut générer un très grand nombre d'entrées de journal des événements, des gestionnaires de journaux sont employés pour faciliter la surveillance des journaux.
+
+
+
+Gestion des informations et des événements liés à la sécurité (SIEM)
+
+SIEM fournit une analyse en temps réel des alertes et des entrées de journal générées par les appareils de réseau comme les IDS et les pare-feu.
+
+
+
+Système de gestion des incidents
+
+L'affectation de tickets, leur modification et leur enregistrement sont effectués à travers un système de gestion de tickets. Les alertes de sécurité sont souvent attribuées aux analystes par le biais d'un système de billetterie.
+
+
+
+# 8.1.4 Outils Linux
+
+En plus des outils spécifiques à la SOC, les ordinateurs Linux utilisés dans la SOC contiennent souvent des outils de test de pénétration. Également connu sous le nom PenTesting, un test de pénétration est le processus consistant à rechercher des vulnérabilités dans un réseau ou un ordinateur en l'attaquant. Des générateurs de paquets, des scanners de ports et des exploits de validation sont des exemples d'outils de PenTesting.
+
+Kali Linux est une distribution Linux regroupe de nombreux outils de pénétration dans une seule distribution Linux. Kali contient un grand choix d'outils. La figure montre une capture d'écran de Kali Linux. Notez la présence de toutes les grandes catégories d'outils de test de pénétration.
+
+![](https://contenthub.netacad.com/asset/netacad-media/media/f5924ad0-a1fb-11ea-bb42-49e522ad4be8/assets/images/f59298f0-a1fb-11ea-bb42-49e522ad4be8.jpg)
+
+![](https://www.netacad.com/content/noes/1.0/assets/zoom_in.svg)
+
+
+# 8.2.1 Le shell Linux
+
+Sous Linux, l'utilisateur communique avec le système d'exploitation à l'aide de l'interface CLI ou de l'interface graphique. Linux démarre souvent dans l'interface graphique par défaut. Cela masque l'interface de ligne de commande de l'utilisateur. L'accès à la CLI à partir de l'interface graphique peut s'effectuer via une application d'émulation de terminal. Ces applications permettent à l'utilisateur d'accéder au CLI et sont souvent nommées par une variation du mot "terminal". Dans Linux, Terminator, eterm, xterm, konsole, et gnome-terminal sont des émulateurs de terminaux répandus.
+
+Fabrice Bellard a créé JSLinux qui permet à une version émulée de Linux de fonctionner dans un navigateur. Recherchez-le sur Internet. Ouvrez une console Linux dans JSLinux et tapez la commande **ls** pour lister le contenu du répertoire courant. Laissez l'onglet ouvert si vous souhaitez essayer certaines des autres commandes examinées dans ce chapitre.
+
+La figure montre gnome-terminal, un émulateur de terminal Linux répandu.
+
+**Remarque:** les termes shell, console, fenêtre de console, terminal CLI et fenêtre de terminal sont souvent utilisés de manière interchangeable.
+
+![](https://contenthub.netacad.com/asset/netacad-media/media/f593f880-a1fb-11ea-bb42-49e522ad4be8/assets/images/f59446a0-a1fb-11ea-bb42-49e522ad4be8.jpg)
+
+# 8.2.2 Commandes de base
+
+
+
+![[Pasted image 20250204093504.png]]
+![[Pasted image 20250204093533.png]]
+![[Pasted image 20250204093649.png]]
+**Remarque:** On suppose que l'utilisateur dispose des autorisations nécessaires pour exécuter la commande. Les autorisations de fichiers sous Linux sont abordées plus loin dans ce module.
+
+
+
+![[Pasted image 20250204093756.png]]
+
+
+
